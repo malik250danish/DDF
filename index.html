@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- main hereo Section -->
+    <div class="hero">
+      <!-- NavBar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.png" alt="logo" width="200px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-white"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav text-white">
+              <li class="nav-item navItem">
+                <a class="nav-link text-white" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item navItem">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item navItem">
+                <a class="nav-link text-white" href="#">Our Team</a>
+              </li>
+              <li class="nav-item navItem">
+                <a class="nav-link text-white" href="#">Contact US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- endNavBAr -->
+      <!-- Hero Content Section -->
+      <div
+        class="main mt-5 d-flex jusrity-content-between flex-column flex-sm-column flex-md-row"
+      >
+        <div class="left mx-5 mt-5">
+          <h2 class="text-white">Diet Doctor Family</h2>
+          <p class="text-white">
+            DDF is app deals with Diet Doctor and Family that will provide a
+            platform to a family to consult with nutritionist doctor about the
+            his health condition and diet recomendations.
+          </p>
+
+          <button class="btn btn-lg downloadBtn mt-3">Download App</button>
+        </div>
+        <div class="right">
+          <img
+            class="mobileImage"
+            src="./images/mobile.png"
+            alt=""
+            width="500px"
+          />
+        </div>
+      </div>
+      <!-- end Hero Content Section -->
+    </div>
+    <!-- end Main Hero Section -->
+    <!-- Main Container -->
+    <div class="container">
+      <!-- portal Section -->
+      <div class="portalSection">
+        <div class="row mt-5">
+          <div class="col-md-4 my-2 d-flex justify-content-center">
+            <div
+              class="card myCard dietCard d-flex flex-column justify-content-center align-items-center p-5"
+            >
+              <div class="cardImage">
+                <svg
+                  width="112"
+                  height="112"
+                  viewBox="0 0 112 112"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0V23.6965V112H84V0H0Z" fill="#DFDFE0" />
+                  <path d="M42 0V23.6965V112H84V0H42Z" fill="#CECED1" />
+                  <path
+                    d="M62.9538 89.6802H20.9026V96.9845H62.9538V89.6802Z"
+                    fill="#9B9BA1"
+                  />
+                  <path
+                    d="M62.9538 71.0151H20.9026V78.3194H62.9538V71.0151Z"
+                    fill="#9B9BA1"
+                  />
+                  <path
+                    d="M62.9538 52.3477H20.9026V59.6519H62.9538V52.3477Z"
+                    fill="#9B9BA1"
+                  />
+                  <path
+                    d="M62.9538 33.6802H20.9026V40.9845H62.9538V33.6802Z"
+                    fill="#9B9BA1"
+                  />
+                  <path
+                    d="M62.9538 15.0151H20.9026V22.3194H62.9538V15.0151Z"
+                    fill="#9B9BA1"
+                  />
+                  <path
+                    d="M63.4893 89.6802H41.7954V96.9845H63.4893V89.6802Z"
+                    fill="#757576"
+                  />
+                  <path
+                    d="M63.4893 71.0151H41.7954V78.3194H63.4893V71.0151Z"
+                    fill="#757576"
+                  />
+                  <path
+                    d="M63.4893 52.3477H41.7954V59.6519H63.4893V52.3477Z"
+                    fill="#757576"
+                  />
+                  <path
+                    d="M63.4893 33.6802H41.7954V40.9845H63.4893V33.6802Z"
+                    fill="#757576"
+                  />
+                  <path
+                    d="M63.4893 15.0151H41.7954V22.3194H63.4893V15.0151Z"
+                    fill="#757576"
+                  />
+                  <path
+                    d="M81 58H73.3142C73.3142 53.0878 71.0859 46.481 69 41.9363L76.0418 39C80.5169 48.752 81 55.5359 81 58Z"
+                    fill="#6A4213"
+                  />
+                  <path
+                    d="M90.5513 54.5513C85.5898 59.5129 77.0163 58.9836 77.0163 58.9836C77.0163 58.9836 76.4873 50.4102 81.4487 45.4487C86.4102 40.4871 94.9837 41.0164 94.9837 41.0164C94.9837 41.0164 95.5127 49.5898 90.5513 54.5513Z"
+                    fill="#E7C64B"
+                  />
+                  <path
+                    d="M90.5474 54.5472C85.5813 59.5133 77 58.9836 77 58.9836L94.9835 41C94.9835 41 95.5132 49.5811 90.5474 54.5472Z"
+                    fill="#DE9846"
+                  />
+                  <path
+                    d="M77 109.878C80.0057 109.878 79.9137 112 87.5418 112C115.983 112 123.48 45.0493 89.0985 52.5927C83.6266 53.7933 79.1196 57.8941 76.9998 57.8941C74.8802 57.8941 70.373 53.7935 64.9013 52.5927C30.5203 45.0493 38.0169 112 66.4579 112C74.0865 112 73.9944 109.878 77 109.878Z"
+                    fill="#4159FB"
+                  />
+                  <path
+                    d="M77.0002 109.878C80.006 109.878 79.9139 112 87.542 112C115.983 112 123.48 45.0493 89.0986 52.5927C83.6268 53.7933 79.1198 57.8941 77 57.8941C77.0002 60.9875 77.0002 104.713 77.0002 109.878Z"
+                    fill="#596DF8"
+                  />
+                </svg>
+              </div>
+              <h5 class="fw-bold mt-5">Diet Portal</h5>
+              <small class="fw-bold text-center">
+                Doctor can suggest different diet plan for different range of
+                age group within family
+              </small>
+              <button class="btn dietBtn mt-2">Diet</button>
+            </div>
+          </div>
+          <div class="col-md-4 my-2 d-flex justify-content-center">
+            <div
+              class="card myCard doctorCard d-flex flex-column justify-content-center align-items-center p-5"
+            >
+              <div class="cardImage">
+                <img src="./images/sscope.png" alt="" width="110px" />
+              </div>
+              <h5 class="fw-bold mt-5">Diet Portal</h5>
+              <small class="fw-bold text-center">
+                Subscribe one or two nutritionist doctors with the aim avoidance
+                of medicine and prioritize diet
+              </small>
+              <button class="btn doctorBtn mt-2">Doctor</button>
+            </div>
+          </div>
+          <div class="col-md-4 my-2 d-flex justify-content-center">
+            <div
+              class="card myCard familyCard d-flex flex-column justify-content-center align-items-center p-5"
+            >
+              <div class="cardImage">
+                <img
+                  src="./images/family.png"
+                  alt="family-photo"
+                  width="110px"
+                />
+              </div>
+              <h5 class="fw-bold mt-5">Family Portal</h5>
+              <small class="fw-bold text-center">
+                Family members above 18 will use app to consult with doctors,
+                while under 18 will use family head or other member.
+              </small>
+              <button class="btn familyBtn mt-2">Family</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end Portal Section -->
+      <!-- About Section -->
+      <div class="aboutSection mt-5">
+        <h1 class="text-center">About US</h1>
+        <div class="row mt-4">
+          <div class="col-md-6 mt-5">
+            <h3 class="my-3">Suggest and Examine Best Diet</h3>
+            <small class="text-muted mt-5">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia.
+            </small>
+            <button class="btn btn-lg testBtn mt-5">Take Blood Test</button>
+          </div>
+          <div class="col-md-6 mt-3 d-flex justify-content-center">
+            <img class="aboutImage" src="./images/aboutImage.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- End About SEction -->
+      <!-- Team SEction -->
+      <div class="teamSection mt-5">
+        <h1 class="text-center">Our Expert Team</h1>
+        <div class="d-flex">
+          <small class="text-muted mx-auto"
+            >This is simply dummy Text of the Printing and typesetting Industry.
+            Lorem ipsum may be used as a placeholder before final copy is
+            available.</small
+          >
+        </div>
+        <div class="row mt-5">
+          <!-- doctors Card -->
+          <div class="col-md-4 my-2 d-flex justify-content-center">
+            <div class="card dCard" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="./images/doctorW.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center mt-2 mb-2">Lois green</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="infoDiv mt-2">
+                    <button class="btn btn-lg infoBtn px-5">More Info</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-2 d-flex justify-content-center">
+            <div class="card dCard" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="./images/doctorW.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center mt-2 mb-2">Lois green</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="infoDiv mt-2">
+                    <button class="btn btn-lg infoBtn px-5">More Info</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-2 d-flex justify-content-center">
+            <div class="card dCard" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="./images/doctorW.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center mt-2 mb-2">Lois green</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="infoDiv mt-2">
+                    <button class="btn btn-lg infoBtn px-5">More Info</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- doctor card end -->
+        </div>
+      </div>
+      <!-- End team Section -->
+    </div>
+    <!-- End Container -->
+    <!-- footer Section -->
+    <div class="container-fluid footer">
+      <div class="">
+        <div class="row fRow">
+          <div class="col-md-4 fCol2">
+            <img class="my-2" src="./images/logo.png" alt="" width="150px" />
+
+            <p class="text-center text-white">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC.
+              Richard McClintock, a Latin professor at Hampden-Sydney College in
+              Virginia.
+            </p>
+          </div>
+          <div class="col-md-4 fCol2">
+            <h4 class="mb-2 coColor">Contact</h4>
+            <div>
+              <span><img src="./images/Location.png" alt="" /></span>
+              <small class="text-white"
+                >Lorem ipsum dolor sit, amet consectetur adipisicing
+              </small>
+            </div>
+            <div class="mt-3">
+              <span><img src="./images/phone.png" alt="" /></span>
+              <small class="text-white">+000000000 </small>
+            </div>
+            <div class="mt-3">
+              <span><img src="./images/mail.png" alt="" width="25px" /></span>
+              <small class="text-white">dummy@gmail.com </small>
+            </div>
+          </div>
+          <div class="col-md-4 fCol2">
+            <h4 class="mb-2 coColor">Follow us on</h4>
+            <div class="mt-2">
+              <span
+                ><img src="./images/facebook.png" alt="" width="55px"
+              /></span>
+              <span><img src="./images/google.png" alt="" /></span>
+              <span><img src="./images/twitter.png" alt="" /></span>
+              <span><img src="./images/linkdin.png" alt="" /></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer Section -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

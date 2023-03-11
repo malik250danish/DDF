@@ -1,0 +1,158 @@
+.hero{
+    background: url("./images/hero.png");
+    background-size: cover;
+    
+}
+#navbarNavDropdown{
+    justify-content: end;
+}
+.downloadBtn{
+    background-color: #359CB6;
+    border-radius: 15px;
+    color: white !important;
+    font-weight: 600;
+}
+.downloadBtn:hover{
+    background-color: #fff !important;
+    border:2px solid #359CB6 !important;
+    color: #359CB6 !important;
+    cursor: pointer;
+}
+.navItem:hover{
+    border-bottom: 4px solid #359CB6;
+}
+.myCard{
+    background-color:#E3E6F4!important;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dietBtn{
+    background-color: #4159FB;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:white;
+    font-weight: 600;
+    border-radius: 20px;
+
+}
+.dietBtn:hover{
+    background-color: #fff;
+    border:2px solid #4159FB;
+    color: #4159FB; 
+}
+.dietCard:hover{
+    border: 1px solid #4159FB;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.doctorBtn{
+    background-color: #CAC531;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:white;
+    font-weight: 600;
+    border-radius: 20px;
+
+}
+.doctorBtn:hover{
+    background-color: #fff;
+    border:2px solid #CAC531;
+    color: #CAC531; 
+}
+.doctorCard:hover{
+    border: 1px solid #CAC531;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.familyBtn{
+    background-color:#56AB2F;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:white;
+    font-weight: 600;
+    border-radius: 20px;
+
+}
+.familyBtn:hover{
+    background-color: #fff;
+    border:2px solid #56AB2F;
+    color: #56AB2F;}
+.familyCard:hover{
+    border: 1px solid#56AB2F;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.testBtn{
+    background-color:#359CB6 !important;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 15px;
+    
+}
+.testBtn:hover{
+    background-color: #fff !important;
+    color: #359CB6;
+    border: 1px solid #359CB6;
+    
+}
+.dCard{
+    border: none;
+}
+.infoDiv{
+   width: fit-content;
+   border-radius: 40px;
+   border: 1px solid #359CB6;
+   padding: 2px;
+}
+.infoBtn{
+    background-color: #359CB6;
+    color: #fff;
+    border-radius: 40px;
+
+}
+.footer{
+    background: url('./images/footer.png');
+    background-size: cover;
+}
+.fCol{
+    margin-top: 100px;
+    margin-left: 30px;
+    line-height: 17px;
+}
+.fCol2{
+    margin-top: 100px;
+    
+    line-height: 17px;
+}
+.coColor{
+    color: #0E71CC;
+
+}
+/* media queries for mobile Screen */
+/* medium size screens */
+@media only screen and (max-width: 768px){
+	.aboutImage{
+        width: 70%;
+
+    }
+    .mobileImage{
+        width: 70%;
+    }
+    .fCol2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fRow{
+        padding-top: 180px;
+    }
+}
+/* small Size screens */
+@media only screen and (max-width: 425px){
+    .mobileImage{
+        width: 70% !important;
+        margin-top: 50px;
+    }
+}
